@@ -72,6 +72,11 @@ public class Project {
 	public Date getUpdated_At() {
 		return updated_At;
 	}
+	
+
+	public void setProjectIdentifier(String projectIdentifier) {
+		this.projectIdentifier = projectIdentifier;
+	}
 
 	public Project() {
 	}
